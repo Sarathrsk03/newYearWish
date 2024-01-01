@@ -1,0 +1,1 @@
+checkFriendName("cidarth")

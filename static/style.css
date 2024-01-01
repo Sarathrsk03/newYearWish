@@ -1,0 +1,74 @@
+/* Reset some default margin and padding for cross-browser consistency */
+body, h1, h2, h3, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/static/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wish1, .wish2 {
+    text-align: center;
+    color: #eeeeee; /* Set text color to a lighter shade of white for better visibility on the darker background */
+}
+
+#wish2 {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9); /* Darker semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px; /* Add space between the wishes and the footer */
+}
+
+#greeting {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #bbb; /* Light gray text color */
+}
+
+#friendGreeting {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #bbb; /* Light gray text color */
+}
+
+#detailedMessage {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666666; /* Darker text color */
+}
+
+#salutation {
+    font-size: 1em;
+    font-style: italic;
+    color: #888888; /* Slightly lighter gray text color */
+}
+
+#sender {
+    font-size: 1em;
+    font-weight: bold;
+    color: #888888; /* Slightly lighter gray text color */
+    margin-top: 10px; /* Add space between the sender and the footer */
+}
+
+footer {
+    background-color: #222; /* Darken the background color */
+    color: #dddddd; /* Lighten the text color */
+    text-align: center;
+    padding: 15px; /* Increase padding for better spacing */
+    position: fixed; /* Fixed position at the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+}
